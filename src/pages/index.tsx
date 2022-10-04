@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Welcome } from '../src/components/welcome'
+import styles from '@/styles/Home.module.css'
+import { Welcome } from '@/components/welcome'
 
 export default function Home() {
   return (
